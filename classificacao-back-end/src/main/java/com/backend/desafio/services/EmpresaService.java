@@ -1,6 +1,5 @@
 package com.backend.desafio.services;
 
-import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.util.List;
 import java.util.Map;
@@ -46,10 +45,9 @@ public class EmpresaService {
 		double pontuacao = 0;
 
 		Optional<Empresa> recebeEmpresa = eRepositorio.findById(id);
-
+		
 		if (recebeEmpresa.isPresent()) {
 			pontuacao = recebeEmpresa.get().getPontuacao();
-			System.out.println(pontuacao);
 		} else {
 			pontuacao = 0;
 		}
