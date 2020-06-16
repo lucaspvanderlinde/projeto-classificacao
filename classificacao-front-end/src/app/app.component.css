@@ -1,0 +1,17 @@
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 180px;
+}
+
+.title {
+    text-align: center;
+}
+
+.btn {
+    width: 100px;
+    margin-left: 10px;
+}

@@ -1,0 +1,21 @@
+<div class="container col-md-6" style="width: 30%;">
+    <div class="card">
+        <div class="card-header">
+            <h3>Importação</h3>
+        </div>
+        <div class="card-body" style="text-align: center;">
+            <div>
+                <input type="file" (change)="uploadFile($event)" class="input" accept=".json">
+                <nz-select class="select" [(ngModel)]="empresaSelecionada">
+                    <nz-option *ngFor="let empresa of empresas" [nzLabel]="empresa.nome" [nzValue]="empresa">
+                        {{ empresa.nome }}
+                    </nz-option>
+                </nz-select>
+            </div>
+            <br>
+            <button (click)="importar()" class="btn btn-danger" [disabled]="!resultado">
+                Importar
+            </button>
+        </div>
+    </div>
+</div>
