@@ -1,6 +1,7 @@
 package com.backend.desafio.resources;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -28,11 +29,15 @@ public class EmpresaController {
 	public List<Empresa> listar() {
 		return eService.listar();
 	}
+	
+	@GetMapping(value="/{id}")
+	public ResponseEntity<?> encontreUmPorId(@PathVariable Integer id) {
+		Optional<Empresa> empresa = eService.procurarPorId(id);
+		return ResponseEntity.ok().body(empresa);
+	}
 
 	@PostMapping(value = "/{id}")
-	public ResponseEntity<?> importarEmpresa(@PathVariable int id, @RequestParam MultipartFile json) {
-
+	public ResponseEntity<?> importarEmpresa(@PathVariable int id, @RequestParam MultipartFile json) throws Throwable {
 		return ResponseEntity.ok().body(eService.calcularESalvar(json, id));
-
 	}
 }

@@ -1,5 +1,6 @@
 package com.backend.desafio.services;
 
+import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.util.List;
 import java.util.Map;
@@ -22,30 +23,26 @@ public class EmpresaService {
 	public List<Empresa> listar() {
 		return eRepositorio.findAll();
 	}
+	
+	public Optional<Empresa> procurarPorId(Integer id) {
+		Optional<Empresa> obj = eRepositorio.findById(id);
+		return obj;
+	}
 
-	public Empresa calcularESalvar(MultipartFile json, int id) {
+	public Empresa calcularESalvar(MultipartFile json, int id) throws Throwable {
 		Empresa empresa = calcularPontuacao(json, id);
-
 		return eRepositorio.save(empresa);
 	}
 
-	public Empresa calcularPontuacao(MultipartFile json, int id) {
+	public Empresa calcularPontuacao(MultipartFile json, int id) throws Throwable {
 
 		Map<String, Integer> map = null;
 
-		try {
-
-			String content = new String(json.getBytes(), StandardCharsets.UTF_8);
-			map = new ObjectMapper().readValue(content, Map.class);
-
-		} catch (Exception e) {
-
-		}
-
+		String content = new String(json.getBytes(), StandardCharsets.UTF_8);
+		map = new ObjectMapper().readValue(content, Map.class);
+		
 		double notas = (double) map.get("notas");
-
 		double debitos = (double) map.get("debitos");
-
 		double pontuacao = 0;
 
 		Optional<Empresa> recebeEmpresa = eRepositorio.findById(id);
