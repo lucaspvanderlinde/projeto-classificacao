@@ -19,6 +19,8 @@ Caso utilizar o prompt de comandos do Windows:
 2 - Após baixar as dependências, acessar a pasta `projeto-classificacao/classificacao-back-end/target` e executar o comando: 
 `java -jar desafio-0.0.1-SNAPSHOT.jar` para executar o arquivo jar e iniciar o backend.
 
+3 - Seguir passo-a-passo para instalar o [Frontend](https://github.com/lucaspvanderlinde/projeto-classificacao/blob/master/classificacao-front-end/README.md)
+
 ## Utilizando API Rest
 
 ## Empresa Service
