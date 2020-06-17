@@ -20,5 +20,5 @@ do projeto.
 2 - Após baixar as dependências, acessar a pasta `classificacao-back-end/target` e executar o comando: 
 `java -jar desafio-0.0.1-SNAPSHOT.jar` para executar o arquivo jar e iniciar o backend.
 
-Para saber sobre a [API](https://github.com/lucaspvanderlinde/projeto-classificacao/edit/master/README.md).
+Para saber sobre a [API](https://github.com/lucaspvanderlinde/projeto-classificacao) arquivo README.md.
 
