@@ -15,7 +15,4 @@ Após instalar o `NodeJS`, abrir o prompt de comandos do Windows e executar o co
 2 - Recomendo utilizar a IDE [Visual Studio Code](https://code.visualstudio.com/download) para iniciar o projeto ou alguma de sua preferência.
 
 3 - Abrir o `Visual Studio Code`, abrir o terminal de comandos da IDE e executar o comando `ng s --open` ou `ng s` 
-para executar o projeto. 
-
-
-
+para executar o projeto.
