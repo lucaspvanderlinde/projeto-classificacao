@@ -1,11 +1,24 @@
-#Backend
+## Backend
 
-Projeto gerado pelo [Spring Initializr](https://start.spring.io/) version 2.3.0.
+Projeto gerado pelo [Spring Initializr](https://start.spring.io/).
 
 ## Requerimentos
 
-[Maven](https://maven.apache.org/install.html)
+Instalar: [Maven](https://maven.apache.org/install.html)
 
-[Java 11](https://jdk.java.net/archive/)
+Instalar: [Java 11](https://jdk.java.net/archive/)
 
-Se for utilizar alguma IDE fazer a instalação do [Lombok](https://projectlombok.org/)
+Caso utilizar alguma IDE [Lombok](https://projectlombok.org/).
+
+## Start Backend
+
+Caso utilizar o prompt de comandos do Windows:
+
+1 - Acessar a pasta do projeto `classificacao-back-end`, dentro dela executar o comando: `mvn clean install` para baixar as dependências
+do projeto.
+
+2 - Após baixar as dependências, acessar a pasta `classificacao-back-end/target` e executar o comando: 
+`java -jar desafio-0.0.1-SNAPSHOT.jar` para executar o arquivo jar e iniciar o backend.
+
+Para saber sobre a [API](projeto-classificacao/README.md).
+
