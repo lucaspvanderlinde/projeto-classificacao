@@ -21,6 +21,10 @@ Caso utilizar o prompt de comandos do Windows:
 
 3 - Seguir passo-a-passo para instalar o [Frontend](https://github.com/lucaspvanderlinde/projeto-classificacao/blob/master/classificacao-front-end/README.md)
 
+# Banco de dados utilizado
+
+PostgresSQL [ElephantSQL](https://www.elephantsql.com/).
+
 ## Utilizando API Rest
 
 ## Empresa Service
