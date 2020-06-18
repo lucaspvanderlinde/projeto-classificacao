@@ -8,7 +8,7 @@ Instalar: [Maven](https://maven.apache.org/install.html)
 
 Instalar: [Java 11](https://jdk.java.net/archive/)
 
-Caso utilizar alguma IDE instalar o [Lombok](https://projectlombok.org/).
+Caso for utilizar alguma IDE instalar a biblioteca [Lombok](https://projectlombok.org/).
 
 ## Start Backend
 
