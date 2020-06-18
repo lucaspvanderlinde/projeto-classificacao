@@ -18,7 +18,7 @@ Caso for utilizar alguma IDE instalar a biblioteca [Lombok](https://projectlombo
 
 ## Start Backend
 
-Caso utilizar o prompt de comandos do Windows:
+Executando pelo prompt de comandos do Windows:
 
 1 - Acessar a pasta do projeto `projeto-classificacao/classificacao-back-end`, dentro dela executar o comando: `mvn clean install` para baixar as dependências do projeto.
 
