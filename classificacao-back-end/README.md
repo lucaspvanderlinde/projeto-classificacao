@@ -10,6 +10,10 @@ Instalar: [Java 11](https://jdk.java.net/archive/)
 
 Obs: Verificar variaveis de ambiente da instalação dos requerimentos, para não dar problema na execução dos proximos passos.
 
+Executar no prompt de comandos do Windows o comando: `mvn -version` para verificar se a instação está correta, img a baixo:
+
+![alt text](https://raw.githubusercontent.com/lucaspvanderlinde/projeto-classificacao/master/cmd.png)
+
 Caso for utilizar alguma IDE instalar a biblioteca [Lombok](https://projectlombok.org/).
 
 ## Start Backend
