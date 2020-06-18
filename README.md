@@ -2,8 +2,7 @@
 
 # Como iniciar o projeto-classificacao
 
-Cada pasta existe um arquivo `README.md` explicando passo-a-passo sobre o que precisa ser feito para iniciar o `projeto-classificacao`
-e explicando um pouco sobre eles.
+Cada pasta existe um arquivo `README.md` explicando passo-a-passo sobre o que precisa ser feito para iniciar o `projeto-classificacao`.
 
 ## Seguir instruções nos links abaixo:
 
