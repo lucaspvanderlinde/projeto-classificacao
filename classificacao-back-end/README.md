@@ -5,6 +5,7 @@ Projeto gerado pelo [Spring Initializr](https://start.spring.io/).
 ## Requerimentos
 
 Instalar: [Maven](https://maven.apache.org/install.html)
+
 Instalar: [Java 11](https://jdk.java.net/archive/)
 
 Obs: Verificar variaveis de ambiente da instalação dos requerimentos, para não dar problema na execução dos proximos passos.
