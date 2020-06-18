@@ -8,13 +8,13 @@ Instalar: [Maven](https://maven.apache.org/install.html)
 
 Instalar: [Java 11](https://jdk.java.net/archive/)
 
+Caso for utilizar alguma IDE instalar a biblioteca [Lombok](https://projectlombok.org/).
+
 Obs: Verificar variaveis de ambiente da instalação dos requerimentos, para não dar problema na execução dos proximos passos.
 
 Executar no prompt de comandos do Windows o comando: `mvn -version` para verificar se a instação está correta, img abaixo:
 
 ![alt text](https://raw.githubusercontent.com/lucaspvanderlinde/projeto-classificacao/master/cmd.png)
-
-Caso for utilizar alguma IDE instalar a biblioteca [Lombok](https://projectlombok.org/).
 
 ## Start Backend
 
