@@ -21,5 +21,5 @@ executar o comando: `ng s --open` ou `ng s` para executar o projeto.
 
 ##### Visual Studio Code:
 
-3 - Abrir o `Visual Studio Code`, abrir o terminal de comandos da IDE e executar o comando `ng s --open` ou `ng s` 
+3 - Abrir o projeto no `Visual Studio Code` e no terminal de comandos da IDE e executar o comando `ng s --open` ou `ng s` 
 para executar o projeto.
