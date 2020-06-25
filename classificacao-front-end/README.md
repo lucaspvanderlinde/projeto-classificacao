@@ -12,7 +12,7 @@ Após instalar o `NodeJS`, abrir o prompt de comandos do Windows e executar o co
 
 1 - Acessar a pasta do projeto `projeto-classificacao/classificacao-front-end` e executar o comando: `npm install` para baixar as dependências do projeto.
 
-Recomendo utilizar a IDE [Visual Studio Code](https://code.visualstudio.com/download) para iniciar o projeto ou pelo pront de comandos do Windows.
+Recomendo utilizar a IDE [Visual Studio Code](https://code.visualstudio.com/download) para iniciar o projeto ou pelo prompt de comandos do Windows.
 
 ##### Prompt de comandos do Windows:
 
